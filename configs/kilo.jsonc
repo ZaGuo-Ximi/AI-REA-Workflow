@@ -1,0 +1,15 @@
+{
+  "$schema": "https://app.kilo.ai/config.json",
+  "mcp": {
+    "rea": {
+      "type": "local",
+      "command": [
+        "cmd", 
+        "/c", 
+        "node", 
+        "YOUR_PATH\\dsh-rea-mcp-lite\\src\\proxy.mjs"
+      ],
+      "enabled": true
+    }
+  }
+}
