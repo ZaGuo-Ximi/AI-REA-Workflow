@@ -1,0 +1,20 @@
+{
+  "mode": "gateway",
+  "activeBundles": [],
+  "metaTools": true,
+  "lite": "mild",
+  "shortDescription": true,
+  "persistRuntimeSwitch": true,
+  "toolCallTimeoutMs": 600000,
+  "child": {
+    "command": "node",
+    "args": [
+      "YOUR_PATH\\rea-agents\\scripts\\rea.mjs",
+      "mcp"
+    ],
+    "env": {
+      "REA_MCP_INPUT_SCHEMA_PROFILE": "compact",
+      "JAVA_HOME": "YOUR_JDK_PATH"
+    }
+  }
+}
